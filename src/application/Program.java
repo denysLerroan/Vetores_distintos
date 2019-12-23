@@ -4,6 +4,8 @@ import java.util.Scanner;
 
 public class Program {
 
+	//Programa para ler um vetor de 20 números inteiros e apresentar três vetores distintos (Vetor original, Vetor Par e Vetor ímpar)
+	
 	public static void main(String[] args) {
 
 		Scanner sc = new Scanner(System.in);
