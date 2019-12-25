@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Program {
 
-	//Programa para ler um vetor de 20 números inteiros e apresentar três vetores distintos (Vetor original, Vetor Par e Vetor ímpar)
+	//Programa para ler um vetor de n números inteiros e apresentar três vetores distintos (Vetor original, Vetor Par e Vetor ímpar)
 	
 	public static void main(String[] args) {
 
@@ -15,7 +15,9 @@ public class Program {
 		int p = 0;
 		int im = 0;
 
-		int vect[] = new int[4];
+		System.out.print("Enter with the vector size: ");
+		int n = sc.nextInt();
+		int vect[] = new int[n];
 
 		for (int i = 0; i < vect.length; i++) {
 			vect[i] = sc.nextInt();
